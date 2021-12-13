@@ -1,4 +1,3 @@
 #Ignore this file upon pushing to github
 .env
 node_modules
-package-lock.json
