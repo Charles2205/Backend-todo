@@ -1,25 +1,23 @@
 {
   "name": "mad-todo-backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.13.0"
+  },
   "description": "A backend service for a todo mobile app",
   "main": "index.js",
   "type": "module",
-  "engines":{
-    "node":"16.13.1"
-  },
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon app.js"
- },
- 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Charles2205/Backend-todo.git"
+    "url": "git+ssh://git@github.com/Charles2205/Backend-todo.git"
   },
   "keywords": [
     "todo"
   ],
-  "author": "Charles",
+  "author": "Asante Adarkwa Usman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Charles2205/Backend-todo/issues"
@@ -32,4 +30,5 @@
     "mongoose": "^6.1.0",
     "nodemon": "^2.0.15"
   }
+ 
 }
